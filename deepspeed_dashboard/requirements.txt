@@ -1,0 +1,23 @@
+# 必选依赖
+torch>=2.0
+transformers>=4.40.0
+accelerate>=0.30.0
+datasets>=2.18.0
+fastapi>=0.110.0
+uvicorn>=0.29.0
+gradio>=4.27.0
+pyyaml>=6.0  # 配置文件解析
+
+# 推理依赖
+deepspeed>=0.14.0
+mii>=0.2.0
+
+# 训练可选（LoRA）
+peft>=0.11.0  # 启用LoRA需安装
+
+# 量化可选
+bitsandbytes>=0.43.0  # 8bit/4bit量化需安装
+
+# 监控可选
+psutil>=5.9.8
+pynvml>=11.5.0
