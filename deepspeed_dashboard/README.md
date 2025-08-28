@@ -39,7 +39,7 @@ deepspeed_dashboard/
 
 1. 克隆仓库（如果适用）：
    ```bash
-   git clone <仓库地址>
+   git clone https://github.com/qwq462799-glitch/DeepSpeed-.git
    cd deepspeed_dashboard
    ```
 
@@ -140,4 +140,5 @@ default_generation:
 ## 许可证
 
 [MIT](LICENSE)
+
 
